@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text2">EventHouse- "Exclusive events, priceless memories"</string>
+    <string name="signButton">Sign in with Google</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="admin_work">This is where the admin will do his job</string>
+    <string name="eventName">Event Name</string>
+    <string name="branchName">Branch</string>
+    <string name="location">Venue</string>
+    <string name="addButton">Add Event</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">EventHouse</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_about">About</string>
+    <string name="menu_announcements">Announcements</string>
+    <string name="welcome">Welcome to EventHouse!</string>
+    <string name="quote">"Exclusive events, priceless memories"</string>
+    <string name="branch_menu">dropDownMenuExample</string>
+    <string name="upload_photo">Upload Image</string>
+    <string name="start_date">Start date: DD/MM/YYYY</string>
+    <string name="end_date">End date: DD/MM/YYYY</string>
+    <string name="select_a_branch">Select a branch</string>
+    <string name="description">Description</string>
+    <string name="branch">Branch</string>
+    <string name="add_side_event">Add a side event</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="website">Website</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="email">Email</string>
+    <string name="contact">Contact:</string>
+    <string name="eventshouse">EVENTSHOUSE</string>
+    <string name="intro">Welcome to EVENTSHOUSE! This is an app made by students from Kristianstad University to help Softhouse employees to attend events and make memories</string>
+    <string name="developers">The developers of this app are:
+        Bin Umar Saiid,
+        Fizza Zeeshan,
+        Musa Naji, and
+        Muhammad Muaz Khan</string>
+    <string name="map_link">Map link</string>
+    <string name="check_in">Check In</string>
+    <string name="press_back_button_to_view_the_event_cards">** Press back button to view the event cards</string>
+    <string name="an_image_about_the_event">An image about the event</string>
+    <string name="view_events">View Events</string>
+    <string-array name="branches">
+        <item>Stockholm</item>
+        <item>Uppsala</item>
+        <item>Jönköping</item>
+        <item>Växjö</item>
+        <item>Karlskrona</item>
+        <item>Karlshamn</item>
+        <item>Kalmar</item>
+        <item>Malmö</item>
+        <item>Lund</item>
+        <item>Sarajevo</item>
+    </string-array>
+
+
+</resources>

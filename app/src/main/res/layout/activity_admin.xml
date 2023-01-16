@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0"
+    tools:context=".admin.AdminActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/rounded_edittext"
+                android:ems="8"
+                android:hint="@string/eventName"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="#4A148C"
+                android:textColorHint="#191970"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittext"
+                android:ems="8"
+                android:hint="@string/location"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="#4A148C"
+                android:textColorHint="#191970"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_a_branch"
+                android:textColor="#191970"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/branch"
+                android:popupBackground="@color/light_blue"
+                android:spinnerMode="dropdown"
+                tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/map_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="Map link"
+                android:minHeight="48dp"
+                android:padding="8dp"
+                android:textColor="#4A148C"
+                android:textColorHint="#191970"
+                android:textSize="20sp"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <EditText
+                android:id="@+id/idTVDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="@string/start_date"
+                android:minHeight="48dp"
+                android:padding="8dp"
+                android:textColor="#4A148C"
+                android:textColorHint="#191970"
+                android:textSize="20sp"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <EditText
+                android:id="@+id/idTVDate2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="@string/end_date"
+                android:minHeight="48dp"
+                android:padding="8dp"
+                android:textColor="#4A148C"
+                android:textColorHint="#191970"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="match_parent"
+                android:layout_height="232dp"
+                android:autofillHints=""
+                android:background="@drawable/rounded_edittext"
+                android:ems="8"
+                android:gravity="top|left"
+                android:hint="@string/description"
+                android:inputType="textMultiLine"
+                android:lines="20"
+                android:minLines="5"
+                android:scrollbars="vertical"
+                android:scrollHorizontally="false"
+                android:textColor="#4A148C"
+                android:textColorHint="#191970"
+                android:textSize="20sp"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_vertical"
+                android:text="@string/upload_photo"
+                android:textColor="#1B5E20"
+                android:textSize="20sp"
+                app:cornerRadius="20dp"
+                app:icon="@android:drawable/ic_menu_upload"
+                app:iconTint="#1B5E20"
+                app:iconTintMode="multiply"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_vertical"
+                android:text="@string/addButton"
+                android:textColor="#1B5E20"
+                android:textSize="20sp"
+                app:cornerRadius="20dp"
+                app:icon="@android:drawable/ic_menu_save"
+                app:iconTint="#1B5E20"
+                app:iconTintMode="multiply"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="2dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
